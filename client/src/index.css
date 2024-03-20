@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-banner img{
+  height: 100%;
+  width: 100%;
+}
+
+.form-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.loader-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(red, green, blue, alpha);
+
+}
+
+.loader{
+  width: 48px;
+  height: 48px;
+  border: 5px solid black;
+  border-radius: 50%;
+  border-bottom-color: blue;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: black !important;
+  color: wheat !important;
+}
+.nav-link{
+ 
+  color: wheat !important;
+}
+.navbar-brand{
+  color: greenyellow;
+}
